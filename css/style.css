@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+form i {
+    position: relative;
+    left: 30px;
+    color: blue;
+}
+
+input[type="text"] {
+    width: 40%;
+    height: 40px;
+    padding: 0;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input:focus {
+    border-color: dodgerblue;
+}
+
+button {
+    width: min-content;
+    height: 44px;
+    margin: 0;
+    cursor: pointer;
+    border: 2px solid #aaa;
+    border-left: none;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(0, 0, 44);
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+

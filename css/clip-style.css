@@ -1,0 +1,120 @@
+.page {
+    height: 100%;
+    width: 100%;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    left: 110%;
+    user-select: none;
+    transition: left 0.3s linear;
+    background: #00000000;
+}
+
+.clip {
+    position: relative;
+    box-sizing: border-box;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 2%;
+    background-color: white;
+    background-image: linear-gradient(rgb(190, 190, 255), white, rgb(190, 190, 255));
+    overflow: hidden;
+    font-family: 'Georgia', serif;
+}
+
+.clip:hover {
+    box-shadow: 0 0 20px rgb(255, 153, 0);
+}
+
+.clip a {
+    color: white;
+}
+
+.clip .top {
+    box-sizing: border-box;
+    height: 30%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 15px;
+    background-color: rgb(44, 13, 114);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.clip h4 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(8, 3, 83);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.clip ul {
+    margin: 10px auto;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.clip li {
+    padding: 5px 0;
+    color: rgb(0, 0, 201);
+}
+
+.clip li i {
+    padding-right: 15px;
+    color: rgb(23, 23, 122);
+}
+
+.clip .bottom p {
+    height: 50%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 4px;
+}
+
+
+.slider {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+}
+
+.slider .arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+}
+
+.slider .arrow:hover {
+    cursor: default;
+    box-shadow: 0 0 7px red;
+}
+
+.slider .number {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: red;
+}
